@@ -1,0 +1,10 @@
+repo: https://github.com/spiffe/spire#main
+primary_contact: security@spiffe.io
+homepage: https://spiffe.io
+output_format:
+  email:
+    min_severity: low
+  github_security_advisory:
+    min_severity: none
+disabled: false
+# The Dockerfile and threat_model.md live in this repository, next to this file.
